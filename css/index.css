@@ -65,6 +65,23 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+#header {
+    width: 100%;
+    background: white;
+}
+#Lambda-header {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+#Lambda-header .head-nav{
+    color: black;
+    text-decoration: none;
+}
 
 .container {
     width: 800px;
@@ -95,23 +112,70 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .wrap .boxes{
+    display: table;
     width: 12.5%;
-    height: 100px;
-    background: black;
+    height: 100px; 
     margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+.middle-content .wrap .boxes .cell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
+.middle-content .wrap .boxes .one{
+    background: teal;
+    border: 3px black dotted;
+    color: white;
+}
+.middle-content .wrap .boxes .two{
+    background: gold;
+    color: white;
+}
+.middle-content .wrap .boxes .three{
+    background: cadetblue;
+    border: 3px black dotted;
+    color: white;
+   
+}
+.middle-content .wrap .boxes .four{
+    background: coral;
+    color: white;
+}
+.middle-content .wrap .boxes .five{
+    background: crimson;
+    border: 3px black dotted;
+    color: white;
+    }
+.middle-content .wrap .boxes .six{
+    background: forestgreen;
+    border: black dotted;
+    color: white;
+}
+.middle-content .wrap .boxes .seven{
+    background:darkorchid;
+    border: 3px black dotted;
+    color: white;
+}
+.middle-content .wrap .boxes .eight{
+    background: hotpink;
+    color: white;
+}
+.middle-content .wrap .boxes .nine{
+    background: indigo;
+    border: 3.5px black dotted;
+    color: white;
+}
+.middle-content .wrap .boxes .ten{
+    background: dodgerblue;
+    color: white;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
