@@ -28,6 +28,38 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* Header Styles */
+header {
+    /* border: 1px solid green; */
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px 0;
+}
+
+header nav {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 14px;
+    
+}
+
+header nav a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    float: left;
+}
+
+/* Main Body Styles */
 body {
 	line-height: 1;
 }
@@ -66,12 +98,14 @@ p {
     line-height: 1.4;
 }
 
+/*  Main Body Content Syles */
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
 .top-content {
+    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,12 +113,18 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.backgroundImage {
+    padding: 20px 0 30px 0;
+    
+    margin-bottom: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* Box CSS Starte Here */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,7 +151,48 @@ p {
     align-items: center;
     justify-content: center;
 }
+/*  Box Color Styles Here */
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
 
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+/* Bottom Content Here */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +206,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* Fottoer Styles */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +225,52 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page Styles */
+
+.about-content {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.img-text-container-about {
+    /* border: 1px solid purple; */
+    width: 47%;
+    border-bottom: 1px dashed black;
+    margin-top: 10px;
+}
+
+.img-about {
+    /* border: 1px solid red; */
+    width: 100%; 
+    margin-top: 10px;
+    /* padding-bottom: 20px; */
+}
+
+.about-h2 {
+    margin-top: 10px;
+}
+.bottom-content-about {
+    /* border: 1px solid green; */
+    margin: 40px 0;
+}
+
+/* Buttons About Styles */
+button {
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px 0;
+    background-color: white;
+} 	
