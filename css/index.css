@@ -28,6 +28,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* Header Styles */
+header {
+    border: 1px solid green;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px 0;
+}
+
+header nav {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+header nav a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
+
+/* Main Body Styles */
 body {
 	line-height: 1;
 }
@@ -66,6 +92,7 @@ p {
     line-height: 1.4;
 }
 
+/*  Main Body Content Syles */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,7 +111,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* Box CSS Starte Here */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,7 +138,10 @@ p {
     align-items: center;
     justify-content: center;
 }
+/*  Box Color Styles Here */
 
+
+/* Bottom Content Here */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +155,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* Fottoer Styles */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +174,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page Styles */
+
+/* Buttons About Styles */
